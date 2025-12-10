@@ -1,0 +1,5 @@
+<library path="lib/libKfupmTest">
+  <class name="kfupm_test/KfupmTest" type="kfupm_test::KfupmTest" base_class_type="nodelet::Nodelet">
+    <description>KfupmTest nodelet</description>
+  </class>
+</library>
