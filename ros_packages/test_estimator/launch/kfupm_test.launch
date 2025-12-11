@@ -21,8 +21,8 @@
       
       <param name="uav_name" value="$(arg uav_name)" />
       <param name="odom_main_topic" value="/$(arg uav_name)/estimation_manager/odom_main" />
-      <!-- <param name="control_service" value="/$(arg uav_name)/control_manager/goto" /> -->
-      <param name="control_service" value="/$(arg uav_name)/control_manager/goto_relative" />
+      <param name="control_service" value="/$(arg uav_name)/control_manager/goto" />
+      <!-- <param name="control_service" value="/$(arg uav_name)/control_manager/goto_relative" /> -->
       
     </node>
     
