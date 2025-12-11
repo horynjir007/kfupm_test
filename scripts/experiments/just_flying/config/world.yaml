@@ -2,8 +2,8 @@ world_origin:
 
   units: "LATLON" # {"UTM, "LATLON"}
 
-  origin_x: 50.0764041
-  origin_y: 14.4180359
+  origin_x: 26.302871
+  origin_y: 50.157246
 
 safety_area:
 
@@ -18,7 +18,7 @@ safety_area:
     #
     # x, y [m] for any frame_name except latlon_origin
     # x = latitude, y = longitude [deg]  for frame_name=="latlon_origin"
-
+    
     points: [
       10, -10,
       -10, -10,
